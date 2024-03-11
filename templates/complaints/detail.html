@@ -1,0 +1,8 @@
+<h2>Жалоба</h2>
+<p>{{ complaint.text }}</p>
+<h3>Ответы:</h3>
+<ul>
+    {% for response in responses %}
+        <li>{{ response.text }}</li>
+    {% endfor %}
+</ul>
